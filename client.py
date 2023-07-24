@@ -4,7 +4,7 @@ import os
 BUFFER_SIZE = 4096  # Fixed-size buffer for reading/writing data
 
 # Define the server address and port
-SERVER_IP = "2409:4071:6e18:71e5:2c99:b22f:4596:4b63"  # Replace with the server's IP address (IPv6)
+SERVER_IP = "::1"  # Replace with the server's IP address (IPv6)
 SERVER_PORT = 12345
 
 # Create a TCP socket
